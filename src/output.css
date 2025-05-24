@@ -180,6 +180,11 @@
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
+@media (max-width: 768px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
 @layer theme, base, components, utilities;
 @layer theme {
   :root, :host {
@@ -362,11 +367,6 @@
   }
 }
 @layer utilities;
-@media (max-width: 768px) {
-  main {
-    grid-template-columns: 1fr;
-  }
-}
 @property --tw-space-x-reverse {
   syntax: "*";
   inherits: false;
