@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link href="./src/output.css" rel="stylesheet">
+    <style>
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body class="p-4">
+
+    <header class="mb-4">
+        <h1 class="text-3xl font-bold">Flexbox Navigation Bar</h1>
+    </header>
+
+<nav class="flex space-x-5 justify-center bg-gray-300 text-white p-4"> 
+<a href="#" class="px-2 text-xl hover:bg-gray-500 p-2 rounded-lg">Home</a> 
+<a href="#" class="px-2 text-xl hover:bg-gray-500 p-2 rounded-lg">About</a> 
+<a href="#" class="px-2 text-xl hover:bg-gray-500 p-2 rounded-lg">Services</a> 
+<a href="#" class="px-2 text-xl hover:bg-gray-500 p-2 rounded-lg">Contact</a> 
+</nav>
+    
+<!-- Image Gallery Section -->
+  <section class="mt-8">
+    <h2 class="text-2xl font-semibold mb-4">My Gallery</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+      <img src="img/client-1.jpg" alt="Client image 1" class="w-full h-auto object-cover rounded-lg shadow-md" />
+      <img src="img/client-2.jpg" alt="Client image 2" class="w-full h-auto object-cover rounded-lg shadow-md" />
+      <img src="img/client-3.jpg" alt="Client image 3" class="w-full h-auto object-cover rounded-lg shadow-md" />
+      <img src="img/portfolio-image-1.jpg" alt="Client image 4" class="w-full h-auto object-cover rounded-lg shadow-md" />
+      <img src="img/portfolio-image2.jpg" alt="Client image 5" class="w-full h-auto object-cover rounded-lg shadow-md" />
+      <img src="img/portfolio-image-3.jpg" alt="Client image 6" class="w-full h-auto object-cover rounded-lg shadow-md" />
+    </div>
+  </section>
+    
+</body>
+</html>
