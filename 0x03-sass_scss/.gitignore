@@ -1,0 +1,13 @@
+node_modules/
+<<<<<<< HEAD
+.env
+.DS_Store
+=======
+.sass-cache/
+.env
+*.log
+*.css
+*.css.map
+.DS_Store
+Thumbs.db
+>>>>>>> 7f48e32 (Created 0x03-sass_scss directory, 0-installation-script file and install sass)

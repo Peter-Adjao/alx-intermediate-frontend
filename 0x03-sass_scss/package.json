@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+<<<<<<< HEAD
+    "@tailwindcss/cli": "^4.1.7",
+    "tailwindcss": "^4.1.7"
+=======
+    "sass": "^1.89.0"
+>>>>>>> 7f48e32 (Created 0x03-sass_scss directory, 0-installation-script file and install sass)
+  }
+}

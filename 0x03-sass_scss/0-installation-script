@@ -1,0 +1,11 @@
+Steps I used to install SASS
+
+1. Installed npm (Node Package Manager).
+2. Verified npm installation using:
+   - npm -v
+3. Initialized npm in the project folder:
+   - npm init -y
+4. Installed Sass using npm:
+   - npm install sass
+5. Verified Sass installation:
+   - npx sass --version 
